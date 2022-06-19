@@ -88,7 +88,7 @@ export default function ElectionPage() {
         </div>
         <div className="border p-2">
           <ElectionInfo
-            title="Eleição em Asgard"
+            title={`Eleição em ${selectedCity.name}`}
             votingPopulation={selectedCityElectionInfo?.votingPopulation}
             absence={selectedCityElectionInfo?.absence}
             presence={selectedCityElectionInfo?.presence}
